@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui, user-scalable=no">
@@ -12,22 +12,12 @@
     <link href="css/tablet.css?10" rel="stylesheet" media="(min-width: 768px)">
     <link href="css/desktop-min.css?10" rel="stylesheet" media="(min-width: 1024px)">
     <link href="css/desktop.css?10" rel="stylesheet" media="(min-width: 1360px)">
-    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <title>Главная страница</title>
     <meta name="description" content="">
@@ -45,7 +35,7 @@
                   <p class="b-header__work-info"><span>В&nbsp;выходные: </span>с 9:00 по 14:00
                   </p>
                 </div>
-                <div class="b-header__contact"><a class="b-header__tel" href="tel:456070" title="Позвонить">45-60-70</a>
+                <div class="b-header__contact"><a class="b-header__tel" href="tel:456070" title="Позвонить"> <span class="b-header__icon-tel"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="16" height="16" viewBox="0 0 30 30"><path d="M21.225,17.889c-0.406-0.238-0.905-0.233-1.309,0.007l-2.046,1.219c-0.458,0.273-1.03,0.241-1.45-0.087 c-0.726-0.567-1.895-1.521-2.912-2.538c-1.017-1.017-1.971-2.186-2.538-2.912c-0.328-0.42-0.36-0.992-0.087-1.45l1.219-2.046 c0.241-0.404,0.243-0.907,0.005-1.313L9.105,3.641c-0.291-0.496-0.869-0.74-1.428-0.603C7.134,3.17,6.429,3.492,5.69,4.232 c-2.314,2.314-3.543,6.217,5.159,14.919s12.604,7.474,14.919,5.159c0.741-0.741,1.062-1.447,1.195-1.991 c0.135-0.558-0.105-1.132-0.6-1.422C25.127,20.174,22.461,18.613,21.225,17.889z"></path></svg></span>45-60-70</a>
                   <div class="b-header__submit-wrapper"><a class="b-header__make-appointment" href="javascript:void(0);" title="Записаться на приём">Записаться на&nbsp;приём</a>
                   </div>
                 </div>
@@ -55,17 +45,17 @@
           <div class="b-header__bottom">
             <div class="b-container">
               <div class="b-header__bottom-content">
-                <div class="b-header__logo">
+                <div class="b-header__logo"><a class="b-header__logo-link" href="javascript:void(0);"><img class="b-header__logo-image" src="./images/inhtml/logo.png" alt="" role="presentation"/></a>
                 </div>
                 <div class="b-header__search">
                   <div class="b-search js-search-toggle">
-                    <div class="b-search__content">
-                      <div class="b-search__icon">
+                    <div class="b-search__content js-search-open">
+                      <div class="b-search__icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="14" height="14" viewBox="0 0 30 30"><path style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal" d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible"></path></svg>
                       </div>
                       <div class="b-search__text">Поиск
                       </div>
                     </div>
-                    <div class="b-search__input-wrapper"><input class="b-search__search" type="text" name="seach" placeholder="Поиск"/>
+                    <div class="b-search__input-wrapper"><a class="b-search__close js-close-search" href="javascript:void(0);" title="Закрыть"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"viewBox="0 0 24 24" style="fill: #b5b8bb;">    <path style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal" d="M 4.9902344 3.9902344 A 1.0001 1.0001 0 0 0 4.2929688 5.7070312 L 10.585938 12 L 4.2929688 18.292969 A 1.0001 1.0001 0 1 0 5.7070312 19.707031 L 12 13.414062 L 18.292969 19.707031 A 1.0001 1.0001 0 1 0 19.707031 18.292969 L 13.414062 12 L 19.707031 5.7070312 A 1.0001 1.0001 0 0 0 18.980469 3.9902344 A 1.0001 1.0001 0 0 0 18.292969 4.2929688 L 12 10.585938 L 5.7070312 4.2929688 A 1.0001 1.0001 0 0 0 4.9902344 3.9902344 z" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible"></path></svg></a><input class="b-search__search" type="text" name="seach" placeholder="Поиск"/>
                     </div>
                   </div>
                 </div>
@@ -99,7 +89,7 @@
         </header>
     <div class="b-page-wrapper">
       <main class="b-main" role="main">
-        <section class="b-main-slider">
+        <section class="b-main-slider b-main-slider--without-shadow">
           <div class="b-container">
             <ul class="b-social">
               <li class="b-social__item"><a class="b-social__link" href="javascript:void(0);" title="Twitter">Twitter</a>
@@ -159,6 +149,14 @@
                 </div>
               </div>
               <div class="b-main-slider__pagination js-main-slider-pagination">
+              </div>
+              <div class="b-main-slider__arrow-down">
+                <div class="b-main-slider__arrow-icon"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 240.823 240.823" style="enable-background:new 0 0 240.823 240.823;" xml:space="preserve"><g><path id="Chevron_Right_1_" d="M183.189,111.816L74.892,3.555c-4.752-4.74-12.451-4.74-17.215,0c-4.752,4.74-4.752,12.439,0,17.179 l99.707,99.671l-99.695,99.671c-4.752,4.74-4.752,12.439,0,17.191c4.752,4.74,12.463,4.74,17.215,0l108.297-108.261 C187.881,124.315,187.881,116.495,183.189,111.816z"/><g></g><g></g><g></g><g></g><g></g><g></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                </div>
+                <div class="b-main-slider__arrow-icon"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 240.823 240.823" style="enable-background:new 0 0 240.823 240.823;" xml:space="preserve"><g><path id="Chevron_Right_1_" d="M183.189,111.816L74.892,3.555c-4.752-4.74-12.451-4.74-17.215,0c-4.752,4.74-4.752,12.439,0,17.179 l99.707,99.671l-99.695,99.671c-4.752,4.74-4.752,12.439,0,17.191c4.752,4.74,12.463,4.74,17.215,0l108.297-108.261 C187.881,124.315,187.881,116.495,183.189,111.816z"/><g></g><g></g><g></g><g></g><g></g><g></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                </div>
+                <div class="b-main-slider__arrow-icon"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 240.823 240.823" style="enable-background:new 0 0 240.823 240.823;" xml:space="preserve"><g><path id="Chevron_Right_1_" d="M183.189,111.816L74.892,3.555c-4.752-4.74-12.451-4.74-17.215,0c-4.752,4.74-4.752,12.439,0,17.179 l99.707,99.671l-99.695,99.671c-4.752,4.74-4.752,12.439,0,17.191c4.752,4.74,12.463,4.74,17.215,0l108.297-108.261 C187.881,124.315,187.881,116.495,183.189,111.816z"/><g></g><g></g><g></g><g></g><g></g><g></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                </div>
               </div>
             </div>
           </div>
@@ -239,6 +237,88 @@
                 </div>
               </li>
             </ul>
+          </div>
+        </section>
+        <section class="b-staff">
+          <div class="b-container">
+            <div class="b-staff__head">
+              <h3 class="b-staff__title">Мастера своего дела для вашей улыбки
+              </h3>
+              <div class="b-staff__arrow">
+                <div class="b-staff__arrow-left"><a class="b-slider-arrow b-slider-arrow--left js-staff-prev" href="javascript:void(0)" title=""><span class="b-slider-arrow__icon"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 240.823 240.823" style="enable-background:new 0 0 240.823 240.823;" xml:space="preserve">
+<g><path id="Chevron_Right_1_" d="M183.189,111.816L74.892,3.555c-4.752-4.74-12.451-4.74-17.215,0c-4.752,4.74-4.752,12.439,0,17.179 l99.707,99.671l-99.695,99.671c-4.752,4.74-4.752,12.439,0,17.191c4.752,4.74,12.463,4.74,17.215,0l108.297-108.261 C187.881,124.315,187.881,116.495,183.189,111.816z"/><g></g><g></g><g></g><g></g><g></g><g></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+</svg></span></a>
+                </div>
+                <div class="b-staff__arrow-right"><a class="b-slider-arrow js-staff-next" href="javascript:void(0)" title=""><span class="b-slider-arrow__icon"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 240.823 240.823" style="enable-background:new 0 0 240.823 240.823;" xml:space="preserve">
+<g><path id="Chevron_Right_1_" d="M183.189,111.816L74.892,3.555c-4.752-4.74-12.451-4.74-17.215,0c-4.752,4.74-4.752,12.439,0,17.179 l99.707,99.671l-99.695,99.671c-4.752,4.74-4.752,12.439,0,17.191c4.752,4.74,12.463,4.74,17.215,0l108.297-108.261 C187.881,124.315,187.881,116.495,183.189,111.816z"/><g></g><g></g><g></g><g></g><g></g><g></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+</svg></span></a>
+                </div>
+              </div>
+            </div>
+            <div class="b-staff__slider js-staff">
+              <ul class="b-staff__list swiper-wrapper">
+                <li class="b-staff__item swiper-slide">
+                  <article class="b-person">
+                    <div class="b-person__image-wrapper"><img class="b-person__img" src="./images/content/person.jpg" alt="ИвановаМария Николаевна" title=""/>
+                    </div>
+                    <div class="b-person__head">
+                      <h4 class="b-person__name"><span>Иванова</span><span>Мария Николаевна</span>
+                      </h4>
+                    </div>
+                    <p class="b-person__description">Praesent a felis tincidunt, pretium ligula vel, dictum justo.
+                    </p>
+                  </article>
+                </li>
+                <li class="b-staff__item swiper-slide">
+                  <article class="b-person">
+                    <div class="b-person__image-wrapper"><img class="b-person__img" src="./images/content/person.jpg" alt="ИвановаМария Николаевна" title=""/>
+                    </div>
+                    <div class="b-person__head">
+                      <h4 class="b-person__name"><span>Иванова</span><span>Мария Николаевна</span>
+                      </h4>
+                    </div>
+                    <p class="b-person__description">Praesent a felis tincidunt, pretium ligula vel, dictum justo.
+                    </p>
+                  </article>
+                </li>
+                <li class="b-staff__item swiper-slide">
+                  <article class="b-person">
+                    <div class="b-person__image-wrapper"><img class="b-person__img" src="./images/content/person.jpg" alt="ИвановаМария Николаевна" title=""/>
+                    </div>
+                    <div class="b-person__head">
+                      <h4 class="b-person__name"><span>Иванова</span><span>Мария Николаевна</span>
+                      </h4>
+                    </div>
+                    <p class="b-person__description">Praesent a felis tincidunt, pretium ligula vel, dictum justo.
+                    </p>
+                  </article>
+                </li>
+                <li class="b-staff__item swiper-slide">
+                  <article class="b-person">
+                    <div class="b-person__image-wrapper"><img class="b-person__img" src="./images/content/person.jpg" alt="ИвановаМария Николаевна" title=""/>
+                    </div>
+                    <div class="b-person__head">
+                      <h4 class="b-person__name"><span>Иванова</span><span>Мария Николаевна</span>
+                      </h4>
+                    </div>
+                    <p class="b-person__description">Praesent a felis tincidunt, pretium ligula vel, dictum justo.
+                    </p>
+                  </article>
+                </li>
+                <li class="b-staff__item swiper-slide">
+                  <article class="b-person">
+                    <div class="b-person__image-wrapper"><img class="b-person__img" src="./images/content/person.jpg" alt="ИвановаМария Николаевна" title=""/>
+                    </div>
+                    <div class="b-person__head">
+                      <h4 class="b-person__name"><span>Иванова</span><span>Мария Николаевна</span>
+                      </h4>
+                    </div>
+                    <p class="b-person__description">Praesent a felis tincidunt, pretium ligula vel, dictum justo.
+                    </p>
+                  </article>
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
         <section class="b-section b-section--price">
@@ -548,7 +628,7 @@
               </div>
             </div>
           </div>
-          <div class="b-contact__map">
+          <div class="b-contact__map"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A07f25363a5fbc128a8015dc77f2b0160366a5aeb9e2c53800df9e71b478e1aa7&amp;width=100%25&amp;height=350&amp;lang=ru_RU&amp;scroll=true"></script>
           </div>
         </section>
       </main>
@@ -561,7 +641,7 @@
         </div>
       </footer>
     </div>
-    <script src="js/external.js?1564739776196"></script>
-    <script src="js/internal.js?1564739776196"></script>
+    <script src="js/external.js?1564983572516"></script>
+    <script src="js/internal.js?1564983572516"></script>
   </body>
 </html>
